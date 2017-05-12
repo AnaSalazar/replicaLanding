@@ -29,7 +29,7 @@ nav > li {
   display: inline;
   text-align: center;
   list-style: none;
-  font-size: 20px;
+  font-size: 200%;
   border: 2px solid pink;
 }
 
@@ -51,13 +51,13 @@ a {
 }
 
 .bienvenida {
-  font-size: 100px;
+  font-size: 500%;
   color: black;
 }
 
 .subtitulo {
   color: #d88ede;
-  font-size: 50px;
+  font-size: 250%;
   margin: 2%;
 }
 
@@ -92,4 +92,21 @@ footer {
   color: pink;
   font-size: 35px;
   background-color: #9981D8;
+}
+
+
+@media (max-width: 500px) {
+  .ocultarMostrar {
+    display: none;
+  }
+
+  iframe {
+    width: 80%;
+    height: 50%;
+  }
+
+  textarea {
+    width: 80%;
+    height: 50%;
+  }
 }
