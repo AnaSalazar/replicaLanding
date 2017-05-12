@@ -2,49 +2,47 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="assets/css/main.css">
     <title>Replica Landing</title>
   </head>
   <body>
-    <article class="contenedorPrincipal">
+    <article class="contenedor centrado">
 
-      <header>
-        <nav>
-          <li>Apps</li>
-          <li>Games</li>
-          <li>Movies</li>
-          <li>Books</li>
-          <li>Newspapers</li>
+      <header id="inicio">
+        <nav class="centrado">
+          <li><a href="#inicio">INICIO</a></li>
+          <li><a href="#home">BIENVENIDOS</a></li>
+          <li><a href="#informacion">INFORMACIÓN</a></li>
+          <li><a href="#multimedia">MULTIMEDIA</a></li>
+          <li><a href="#contacto">CONTACTO</a></li>
         </nav>
       </header>
 
-      <section id="home" class="bienvenida">
+      <section id="home" class="contenedor backgroundFondo bienvenida centrado">
         <h1>Bienvenidos</h1>
       </section>
 
-      <article id="informacion"class="">
-        <h2>Texto mediano</h2>
-        <section>
-          <p>parrafo1</p>
-          <img src="" alt="">
+      <article id="informacion" class="contenedor centrado">
+        <h2 class="subtitulo contenedor centrado">INFORMACIÓN</h2>
+        <section class="parrafosConImagenes contenedor">
+          <p>El café es la bebida que se obtiene a partir de las semillas tostadas y molidas de los frutos de la planta del café. Es una bebida altamente estimulante por su contenido de cafeína</p>
+          <img src="assets/imagenes/cafe.jpg" alt="">
         </section>
-        <section>
-          <p>parrafo2</p>
-          <img src="" alt="">
-        </section>
-      </article>
-
-      <article id="video" class="">
-        <h2>Texto Video</h2>
-        <section>
-          <video src="videofile.ogg" autoplay poster="posterimage.jpg">
-
-          </video>
+        <section class="parrafosConImagenes contenedor">
+          <img src="assets/imagenes/programar.jpg" alt="">
+          <p>La programación informática o programación algorítmica, acortada como programación, es el proceso de diseñar, codificar, depurar y mantener el código fuente de programas de computadora. El código fuente es escrito en un lenguaje de programación.</p>
         </section>
       </article>
 
-      <section>
-        <h3>texto formulario</h3>
+      <article id="multimedia" class="backgroundFondo contenedor">
+        <h2 class="contenedor subtitulo centrado">MULTIMEDIA</h2>
+        <section class="contenedor centrado">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/HgzGwKwLmgM" frameborder="0" allowfullscreen></iframe>
+        </section>
+      </article>
+
+      <section id="contacto" class="contenedor centrado">
+        <h3 class="subtitulo">CONTACTO</h3>
         <form class="" action="index.html" method="post">
           <input type="text" name="" value="">
           <input type="text" name="" value="">

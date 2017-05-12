@@ -3,10 +3,13 @@
   padding: 0;
 }
 
-.contenedorPrincipal {
+.contenedor{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+}
+
+.centrado {
   justify-content: center;
   align-items: center;
 }
@@ -18,7 +21,6 @@ header {
 
 nav {
   display: flex;
-  justify-content: center;
   margin: 3%;
 }
 
@@ -27,24 +29,45 @@ nav > li {
   display: inline;
   text-align: center;
   list-style: none;
-  color: pink;
   font-size: 20px;
   border: 2px solid pink;
 }
 
-#home {
+a {
+  text-decoration: none;
+  color: pink;
+}
+
+.backgroundFondo {
   width: 100%;
-  height: 300px;
+  height: 500px;
   background-image: url("../imagenes/dawn.png");
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
 }
 
 .bienvenida {
   font-size: 100px;
   color: black;
+}
+
+.subtitulo {
+  color: #d88ede;
+  font-size: 50px;
+  margin: 2%;
+}
+
+.parrafosConImagenes{
+  justify-content: space-around;
+  margin: 5%;
+}
+
+.parrafosConImagenes p {
+  color: black;
+  font-size: 30px;
+  width: 50%;
+}
+
+.parrafosConImagenes img {
+  width: 30%;
 }
