@@ -46,6 +46,10 @@ a {
   background-size: cover;
 }
 
+.backgroundNegro {
+  background-color: black;
+}
+
 .bienvenida {
   font-size: 100px;
   color: black;
@@ -63,11 +67,29 @@ a {
 }
 
 .parrafosConImagenes p {
-  color: black;
+  color: #d88ede;
   font-size: 30px;
   width: 50%;
 }
 
 .parrafosConImagenes img {
   width: 30%;
+}
+
+form{
+  flex-direction: column;
+  margin: 2%;
+}
+
+.formulario {
+  margin: 1%;
+  color: #d88ede;
+  font-size: 20px;
+  border: 5px solid #d88ede;
+}
+
+footer {
+  color: pink;
+  font-size: 35px;
+  background-color: #9981D8;
 }

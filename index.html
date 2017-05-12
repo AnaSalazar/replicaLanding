@@ -14,7 +14,7 @@
           <li><a href="#home">BIENVENIDOS</a></li>
           <li><a href="#informacion">INFORMACIÓN</a></li>
           <li><a href="#multimedia">MULTIMEDIA</a></li>
-          <li><a href="#contacto">CONTACTO</a></li>
+          <li><a href="#contacto">COMENTARIOS</a></li>
         </nav>
       </header>
 
@@ -22,7 +22,7 @@
         <h1>Bienvenidos</h1>
       </section>
 
-      <article id="informacion" class="contenedor centrado">
+      <article id="informacion" class="contenedor centrado backgroundNegro">
         <h2 class="subtitulo contenedor centrado">INFORMACIÓN</h2>
         <section class="parrafosConImagenes contenedor">
           <p>El café es la bebida que se obtiene a partir de las semillas tostadas y molidas de los frutos de la planta del café. Es una bebida altamente estimulante por su contenido de cafeína</p>
@@ -41,17 +41,27 @@
         </section>
       </article>
 
-      <section id="contacto" class="contenedor centrado">
-        <h3 class="subtitulo">CONTACTO</h3>
-        <form class="" action="index.html" method="post">
-          <input type="text" name="" value="">
-          <input type="text" name="" value="">
-          <textarea name="name" rows="8" cols="80">Comentario</textarea>
+      <section id="comentarios" class="contenedor centrado backgroundNegro">
+        <h3 class="subtitulo">COMENTARIOS</h3>
+        <form class="contenedor centrado" action="index.html">
+          <section class="formulario">
+            <label class="">Tu nombre:</label>
+            <input type="text" placeholder="Nombre Apellidos">
+          </section>
+          <section class="formulario">
+            <label>Tu correo:</label>
+            <input type="text" placeholder="@">
+          </section>
+          <section class="formulario">
+            <textarea rows="8" cols="80" placeholder="Déjame tu comentario"></textarea>
+          </section>
           <button type="button" name="button">enviar</button>
         </form>
       </section>
 
-      <footer>Fin</footer>
+      <footer class="contenedor centrado">
+        Ana Stephany Salazar Guzmán / Laboratoria 2017
+      </footer>
     </article>
 
   </body>
